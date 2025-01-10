@@ -31,9 +31,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Inshaad Merchant",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "inshaad17@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -118,6 +118,7 @@ const Contact = () => {
               rows='4'
               className='textarea'
               placeholder='Write your thoughts here...'
+              required
               value={form.message}
               onChange={handleChange}
               onFocus={handleFocus}

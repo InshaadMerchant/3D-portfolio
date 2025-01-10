@@ -1,29 +1,26 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, tesla, starbucks } from "../assets/images";
 import {
     car,
     contact,
     css,
     estate,
-    express,
     git,
     github,
     html,
     javascript,
     linkedin,
     mongodb,
-    motion,
     mui,
     nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
     typescript
+    
 } from "../assets/icons";
 
 export const skills = [
@@ -31,11 +28,6 @@ export const skills = [
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
     },
     {
         imageUrl: git,
@@ -63,11 +55,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
         imageUrl: mui,
         name: "Material-UI",
         type: "Frontend",
@@ -88,16 +75,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -113,7 +90,7 @@ export const experiences = [
     {
         title: "HackUTA 2024 Developer",
         company_name: "The University of Texas at Arlington",
-        icon: starbucks,
+        icon: meta,
         iconBg: "#accbe1",
         date: "March 2024 - December 2024",
         points: [
@@ -125,8 +102,8 @@ export const experiences = [
     {
         title: "Society of Computing and Artificial Intelligence (SCAI) Developer and Outreach Officer",
         company_name: "The University of Texas at Arlington",
-        icon: meta,
-        iconBg: "#a2d2ff",
+        icon: shopify,
+        iconBg: "#b7e4c7",
         date: "May 2024 - Present",
         points: [
             "Working with a team of individuals to develop and modify the website for SCAI.",
@@ -137,8 +114,8 @@ export const experiences = [
     {
         title: "Undergraduate Research Assistant",
         company_name: "The University of Texas at Arlington",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        icon: tesla,
+        iconBg: "#fbc3bc",
         date: "Jul 2024 - Present",
         points: [
             "Developed a novel security model using IMU data for covert emotional state detection, enhancing privacy protections against unauthorized app tracking.",
@@ -147,27 +124,44 @@ export const experiences = [
     },
 
     {
-        title: "Engineering Senator, Student Government",
+        title: "CSE tutor",
         company_name: "The University of Texas at Arlington",
         icon: tesla,
         iconBg: "#fbc3bc",
+        date: "August 2024 - Present",
+        points: [
+            "Providing one-on-one tutoring for UTA CSE undergraduate courses, assisting students in mastering subject material, debugging programs, and solving complex programming problems.",
+            "Manage daily operations of the CSE Student Success Center, including preparing lab computers, organizing work areas, and ensuring smooth appointment check-ins.",
+        ],
+    
+    },
+
+    {
+        title: "Engineering Senator, Student Government",
+        company_name: "The University of Texas at Arlington",
+        icon: starbucks,
+        iconBg: "#b7e4c7",
         date: "october 2024 - Present",
         points: [
-            
+            "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
+            "Fostered strong collaborations with academic and administrative stakeholders to launch initiatives that significantly boosted the engineering community's growth and success."
         ],
     },
 
     {
         title: "Datathon 2024 Developer",
         company_name: "The University of Texas at Arlington",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: starbucks,
+        iconBg: "#b7e4c7",
         date: "November 2024 - Present",
         points: [
-            
+            "Engineered a cutting-edge, user-centric website using React, Next.js, and Node.js, enhancing participant engagement and operational efficiency.",
+            "Spearheaded the robust management of event databases, ensuring smooth and secure participant interactions from check-in through completion."
         ],
     },
+
 ];
+
 
 export const socialLinks = [
     {
