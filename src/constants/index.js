@@ -136,17 +136,6 @@ export const experiences = [
     
     },
 
-    {
-        title: "Engineering Senator, Student Government",
-        company_name: "The University of Texas at Arlington",
-        icon: starbucks,
-        iconBg: "#b7e4c7",
-        date: "october 2024 - Present",
-        points: [
-            "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
-            "Fostered strong collaborations with academic and administrative stakeholders to launch initiatives that significantly boosted the engineering community's growth and success."
-        ],
-    },
 
     {
         title: "Datathon 2024 Developer",
