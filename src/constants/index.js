@@ -87,6 +87,20 @@ export const skills = [
 ];
 
 export const experiences = [
+
+    {
+        title: "HeadstarterAI Fellowship",
+        company_name: "The University of Texas at Arlington",
+        icon: meta,
+        iconBg: "#accbe1",
+        date: "July 2024 - September 2024",
+        points: [
+            "Spearheaded the development of commercially viable AI-based full-stack applications, integrating advanced AI models to enhance system performance by 20% and implementing microservices architecture on AWS, reducing server response time by 30%.",
+            "Engaged in weekly hackathons and collaborative coding sessions, improving problem-solving skills and fostering a team-oriented approach. Actively participated in resume reviews and interview preparation sessions, significantly boosting job readiness.",
+            "Led a capstone project focused on achieving 1,000 user sign-ups or generating $1,000 in revenue, utilizing data-driven strategies and iterative design processes to meet and exceed objectives, demonstrating expertise in building scalable, robust, and market-ready solutions.",
+        ],
+    },
+    
     {
         title: "HackUTA 2024 Developer",
         company_name: "The University of Texas at Arlington",
