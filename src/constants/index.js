@@ -197,7 +197,7 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'BugHouse',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://github.com/anivsurana/BugHouse/tree/master',
     },
     {
         iconUrl: car,
@@ -226,5 +226,26 @@ export const projects = [
         name: 'HackUTA website 2024',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
         link: 'https://github.com/InshaadMerchant/HackUTA2024',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-yellow',
+        name: 'AI Customer Support',
+        description: 'Engineered an AI-driven customer support system with Next.js and React, reducing response times by 50% through intelligent automation with OpenAI.',
+        link: 'https://github.com/InshaadMerchant/AI_customersupport',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-yellow',
+        name: 'AI Flashcards - SaaS',
+        description: 'Developed an AI-enhanced SaaS platform using Next.js and React for dynamic educational flashcard generation from textual inputs via OpenAI.',
+        link: 'https://github.com/InshaadMerchant/AIflashcards-saas',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'Pantry Tracker',
+        description: 'Developed a pantry tracker app using next.js and react that could help people make daily list of their pantries to ensure what they have and what they need to shop from stores. It allows people to add and remove items from the pantry list and search the list for items readily.',
+        link: 'https://github.com/InshaadMerchant/Pantry-Tracking-App',
     }
 ];
