@@ -189,15 +189,15 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'EduPort',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
         link: 'https://github.com/InshaadMerchant/CCN',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'BugHouse',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/anivsurana/BugHouse/tree/master',
+        description: 'Led the design and development of a Flutter-based tutoring app for UTA's CSE Student Success Center, incorporating Firebase, Node.js, OAuth 2.0, and PostgreSQL, featuring a session management system with magnetic stripe attendance tracking, a real-time feedback and rating system for tutors, dynamic availability scheduling, and robust reporting for performance metrics to enhance teaching effectiveness and student engagement.',
+        link: 'https://github.com/mln10/BugHouse/tree/master',
     },
     {
         iconUrl: car,
@@ -210,7 +210,7 @@ export const projects = [
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'FinGuru',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        description: 'Engineered an Android app using Java, XML, and Firebase that provides tailored financial advice by analyzing personal financial data and global market trends through machine learning, featuring a user-friendly interface with easy navigation and interactive elements to maintain engagement and deliver timely financial insights.',
         link: 'https://github.com/InshaadMerchant/FinGuru',
     },
     {
