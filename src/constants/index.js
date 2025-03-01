@@ -196,14 +196,14 @@ export const projects = [
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'BugHouse',
-        description: 'Led the design and development of a Flutter-based tutoring app for UTA's CSE Student Success Center, incorporating Firebase, Node.js, OAuth 2.0, and PostgreSQL, featuring a session management system with magnetic stripe attendance tracking, a real-time feedback and rating system for tutors, dynamic availability scheduling, and robust reporting for performance metrics to enhance teaching effectiveness and student engagement.',
+        description: 'Led the design and development of a Flutter-based tutoring app for the CSE Student Success Center at UTA, incorporating Firebase, Node.js, OAuth 2.0, and PostgreSQL, featuring a session management system with magnetic stripe attendance tracking, a real-time feedback and rating system for tutors, dynamic availability scheduling, and robust reporting for performance metrics to enhance teaching effectiveness and student engagement.',
         link: 'https://github.com/mln10/BugHouse/tree/master',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'SecureContactAPI',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        description: 'Engineered a Secure Phone Book REST API with input validation and comprehensive security features, enhancing data integrity and security. I implemented OAuth 2.0 for sophisticated user role-based access control, safeguarding sensitive API endpoints.Also, leveraged Docker to ensure consistent, scalable deployments and streamlined CI/CD processes',
         link: 'https://github.com/InshaadMerchant/phonebookFASTAPI',
     },
     {
@@ -217,14 +217,14 @@ export const projects = [
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'MLHConnect',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        description: 'Developed MLHConnect, a dynamic networking app for hackathons, enhancing participant interaction and event accessibility. I integrated it with MongoDB to handle large volumes of user data securely and efficiently, supported by robust authentication and multimedia support',
         link: 'https://github.com/InshaadMerchant/MLHConnect',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'HackUTA website 2024',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        description: 'Revamped the HackUTA event website, enhancing user engagement and accessibility with a modern tech stack including Next.js and React. I integrated live chat functionality using ChatGPT API, providing 24/7 support and real-time event updates to participants. I implemented MongoDB and SendGrid for efficient data handling and email communications, ensuring a seamless user experience',
         link: 'https://github.com/InshaadMerchant/HackUTA2024',
     },
     {
