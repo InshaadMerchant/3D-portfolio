@@ -88,19 +88,6 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "HeadstarterAI Fellowship",
-        company_name: "The University of Texas at Arlington",
-        icon: Headstarter_logo,
-        iconBg: "#5271FF",
-        date: "July 2024 - September 2024",
-        points: [
-            "Spearheaded the development of commercially viable AI-based full-stack applications, integrating advanced AI models to enhance system performance by 20% and implementing microservices architecture on AWS, reducing server response time by 30%.",
-            "Engaged in weekly hackathons and collaborative coding sessions, improving problem-solving skills and fostering a team-oriented approach. Actively participated in resume reviews and interview preparation sessions, significantly boosting job readiness.",
-            "Led a capstone project focused on achieving 1,000 user sign-ups or generating $1,000 in revenue, utilizing data-driven strategies and iterative design processes to meet and exceed objectives, demonstrating expertise in building scalable, robust, and market-ready solutions.",
-        ],
-    },
-    
-    {
         title: "HackUTA 2024 Developer",
         company_name: "The University of Texas at Arlington",
         icon: hackuta2024,
@@ -152,8 +139,8 @@ export const experiences = [
     {
         title: "Engineering Senator, Student Government",
         company_name: "The University of Texas at Arlington",
-        icon: uta,
-        iconBg: "#F28C28",
+        icon: starbucks,
+        iconBg: "#b7e4c7",
         date: "october 2024 - Present",
         points: [
             "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
@@ -199,42 +186,63 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'EduPort',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
         link: 'https://github.com/InshaadMerchant/CCN',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'BugHouse',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        description: 'Led the design and development of a Flutter-based tutoring app for the CSE Student Success Center at UTA, incorporating Firebase, Node.js, OAuth 2.0, and PostgreSQL, featuring a session management system with magnetic stripe attendance tracking, a real-time feedback and rating system for tutors, dynamic availability scheduling, and robust reporting for performance metrics to enhance teaching effectiveness and student engagement.',
+        link: 'https://github.com/mln10/BugHouse/tree/master',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'SecureContactAPI',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        description: 'Engineered a Secure Phone Book REST API with input validation and comprehensive security features, enhancing data integrity and security. I implemented OAuth 2.0 for sophisticated user role-based access control, safeguarding sensitive API endpoints.Also, leveraged Docker to ensure consistent, scalable deployments and streamlined CI/CD processes',
         link: 'https://github.com/InshaadMerchant/phonebookFASTAPI',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'FinGuru',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        description: 'Engineered an Android app using Java, XML, and Firebase that provides tailored financial advice by analyzing personal financial data and global market trends through machine learning, featuring a user-friendly interface with easy navigation and interactive elements to maintain engagement and deliver timely financial insights.',
         link: 'https://github.com/InshaadMerchant/FinGuru',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'MLHConnect',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        description: 'Developed MLHConnect, a dynamic networking app for hackathons, enhancing participant interaction and event accessibility. I integrated it with MongoDB to handle large volumes of user data securely and efficiently, supported by robust authentication and multimedia support',
         link: 'https://github.com/InshaadMerchant/MLHConnect',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'HackUTA website 2024',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        description: 'Revamped the HackUTA event website, enhancing user engagement and accessibility with a modern tech stack including Next.js and React. I integrated live chat functionality using ChatGPT API, providing 24/7 support and real-time event updates to participants. I implemented MongoDB and SendGrid for efficient data handling and email communications, ensuring a seamless user experience',
         link: 'https://github.com/InshaadMerchant/HackUTA2024',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-yellow',
+        name: 'AI Customer Support',
+        description: 'Engineered an AI-driven customer support system with Next.js and React, reducing response times by 50% through intelligent automation with OpenAI.',
+        link: 'https://github.com/InshaadMerchant/AI_customersupport',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-yellow',
+        name: 'AI Flashcards - SaaS',
+        description: 'Developed an AI-enhanced SaaS platform using Next.js and React for dynamic educational flashcard generation from textual inputs via OpenAI.',
+        link: 'https://github.com/InshaadMerchant/AIflashcards-saas',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'Pantry Tracker',
+        description: 'Developed a pantry tracker app using next.js and react that could help people make daily list of their pantries to ensure what they have and what they need to shop from stores. It allows people to add and remove items from the pantry list and search the list for items readily.',
+        link: 'https://github.com/InshaadMerchant/Pantry-Tracking-App',
     }
 ];
