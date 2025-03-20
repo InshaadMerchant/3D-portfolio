@@ -1,4 +1,4 @@
-import { meta, shopify, tesla, starbucks } from "../assets/images";
+import { meta, shopify, tesla, starbucks, Headstarter_logo, hackuta2024, scai, uta } from "../assets/images";
 import {
     car,
     contact,
@@ -88,10 +88,23 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "HeadstarterAI Fellowship",
+        company_name: "The University of Texas at Arlington",
+        icon: Headstarter_logo,
+        iconBg: "#5271FF",
+        date: "July 2024 - September 2024",
+        points: [
+            "Spearheaded the development of commercially viable AI-based full-stack applications, integrating advanced AI models to enhance system performance by 20% and implementing microservices architecture on AWS, reducing server response time by 30%.",
+            "Engaged in weekly hackathons and collaborative coding sessions, improving problem-solving skills and fostering a team-oriented approach. Actively participated in resume reviews and interview preparation sessions, significantly boosting job readiness.",
+            "Led a capstone project focused on achieving 1,000 user sign-ups or generating $1,000 in revenue, utilizing data-driven strategies and iterative design processes to meet and exceed objectives, demonstrating expertise in building scalable, robust, and market-ready solutions.",
+        ],
+    },
+    
+    {
         title: "HackUTA 2024 Developer",
         company_name: "The University of Texas at Arlington",
-        icon: meta,
-        iconBg: "#accbe1",
+        icon: hackuta2024,
+        iconBg: "#FF6B6B",
         date: "March 2024 - December 2024",
         points: [
             "Working with a team of individuals to develop and modify the website for HackUTA.",
@@ -102,8 +115,8 @@ export const experiences = [
     {
         title: "Society of Computing and Artificial Intelligence (SCAI) Developer and Outreach Officer",
         company_name: "The University of Texas at Arlington",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        icon: scai,
+        iconBg: "#6B48FF",
         date: "May 2024 - Present",
         points: [
             "Working with a team of individuals to develop and modify the website for SCAI.",
@@ -114,8 +127,8 @@ export const experiences = [
     {
         title: "Undergraduate Research Assistant",
         company_name: "The University of Texas at Arlington",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: uta,
+        iconBg: "#F28C28",
         date: "Jul 2024 - Present",
         points: [
             "Developed a novel security model using IMU data for covert emotional state detection, enhancing privacy protections against unauthorized app tracking.",
@@ -126,8 +139,8 @@ export const experiences = [
     {
         title: "CSE tutor",
         company_name: "The University of Texas at Arlington",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: uta,
+        iconBg: "#F28C28",
         date: "August 2024 - Present",
         points: [
             "Providing one-on-one tutoring for UTA CSE undergraduate courses, assisting students in mastering subject material, debugging programs, and solving complex programming problems.",
@@ -139,8 +152,8 @@ export const experiences = [
     {
         title: "Engineering Senator, Student Government",
         company_name: "The University of Texas at Arlington",
-        icon: starbucks,
-        iconBg: "#b7e4c7",
+        icon: uta,
+        iconBg: "#F28C28",
         date: "october 2024 - Present",
         points: [
             "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
@@ -151,8 +164,8 @@ export const experiences = [
     {
         title: "Datathon 2024 Developer",
         company_name: "The University of Texas at Arlington",
-        icon: starbucks,
-        iconBg: "#b7e4c7",
+        icon: uta,
+        iconBg: "#F28C28",
         date: "November 2024 - Present",
         points: [
             "Engineered a cutting-edge, user-centric website using React, Next.js, and Node.js, enhancing participant engagement and operational efficiency.",
