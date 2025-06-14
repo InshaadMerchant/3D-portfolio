@@ -22,14 +22,15 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        I am an aspiring computer scientist. I had a non-ending interest in computers since the time I was three. 
-        I started learning to program in 9th grade. 
-        I learned to program in VB for four years with a little bit of touch in Python and Pascal. 
-        Currently, I am learning C, C++, and Java programming. 
-        I have developed some important skills over time 
-        which include but are not limited to communication, leadership, time management, and presentation 
-        which I feel are equally essential to succeed in my career. Being organized and consistent has helped me reach my full potential. 
-        My aim is that I can revolutionize and change the world using my programming skills.
+        As a Computer Science graduate from the University of Texas at Arlington with a GPA of 3.7, I bring hands-on experience in developing scalable full-stack applications, Android platforms, and AI-driven systems. I’ve contributed to multiple research and development projects—ranging from emotion-based security models to tutor-student management systems—using modern technologies like React, Node.js, Firebase, PostgreSQL, and AWS.
+
+        Over the years, I’ve honed not only my technical skills in Java, Python, C++, and SQL but also soft skills in leadership, mentoring, and cross-functional collaboration. I’ve worked as a peer academic leader, tutor, and frontend developer, and led a software engineering fellowship where I implemented microservices architectures and integrated AI modules.
+
+        My goal is to solve real-world problems through innovative software—especially in education, cloud, and AI domains. I’m actively seeking full-time opportunities in software development, Android engineering, and cloud/AI engineering.
+
+        Tech Stack: Java, Python, JavaScript, React, Firebase, PostgreSQL, AWS, Azure, MongoDB, Node.js, Docker, Git
+
+        Let’s connect if you’re hiring or collaborating on impactful tech projects.
         </p>
       </div>
 

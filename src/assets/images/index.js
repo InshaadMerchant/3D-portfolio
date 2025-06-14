@@ -8,6 +8,7 @@ import Headstarter_logo from './Headstarter_logo.png'
 import hackuta2024 from './hackuta2024.png'
 import scai from './scai.png'
 import uta from './uta.png'
+import APEC_logo from './APEC_logo.png'
 
 export {
     hero,
@@ -19,5 +20,6 @@ export {
     Headstarter_logo,
     hackuta2024,
     scai,
-    uta
+    uta,
+    APEC_logo
 }

@@ -1,4 +1,4 @@
-import { meta, shopify, tesla, starbucks, Headstarter_logo, hackuta2024, scai, uta } from "../assets/images";
+import { meta, shopify, tesla, starbucks, Headstarter_logo, hackuta2024, scai, uta, APEC_logo } from "../assets/images";
 import {
     car,
     contact,
@@ -88,6 +88,63 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Engineering Intern",
+        company_name: "Atlanta Petroleum Equipment Company",
+        icon: APEC_logo,
+        iconBg: "#FFFFFF",
+        date: "July 2025 - Present",
+        points: [
+            "Led the consolidation and transfer of 25+ critical I.T. systems and software platforms including MSFT Azure, SQL Server, Ventus, Acumatica, and Zoho, ensuring 100% continuity in operations across three major offices (ATL, HOU, and MPC).",
+            "Administered access control, credential management, and surveillance systems for 50+ devices and endpoints including servers, mobile data systems, and proprietary software—achieving full audit compliance and minimizing downtime.",
+            "Streamlined the onboarding of internal tools by documenting and transferring admin-level knowledge for 10+ enterprise systems (e.g., Microsoft 365, DFS, Clockshark), directly supporting cross-departmental digital transformation.",
+        ],
+    },
+    {
+        title: "Datathon 2024 Developer",
+        company_name: "The University of Texas at Arlington",
+        icon: uta,
+        iconBg: "#F28C28",
+        date: "November 2024 - April 2025",
+        points: [
+            "Engineered a cutting-edge, user-centric website using React, Next.js, and Node.js, enhancing participant engagement and operational efficiency.",
+            "Spearheaded the robust management of event databases, ensuring smooth and secure participant interactions from check-in through completion."
+        ],
+    },
+    {
+        title: "Engineering Senator, Student Government",
+        company_name: "The University of Texas at Arlington",
+        icon: uta,
+        iconBg: "#F28C28",
+        date: "October 2024 - April 2025",
+        points: [
+            "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
+            "Fostered strong collaborations with academic and administrative stakeholders to launch initiatives that significantly boosted the engineering community's growth and success."
+        ],
+    },
+    {
+        title: "CSE tutor",
+        company_name: "The University of Texas at Arlington",
+        icon: uta,
+        iconBg: "#F28C28",
+        date: "August 2024 - April 2025",
+        points: [
+            "Providing one-on-one tutoring for UTA CSE undergraduate courses, assisting students in mastering subject material, debugging programs, and solving complex programming problems.",
+            "Manage daily operations of the CSE Student Success Center, including preparing lab computers, organizing work areas, and ensuring smooth appointment check-ins.",
+        ],
+    },
+    {
+        title: "Undergraduate Research Assistant",
+        company_name: "The University of Texas at Arlington",
+        icon: uta,
+        iconBg: "#F28C28",
+        date: "July 2024 - April 2025",
+        points: [
+            "Developed a novel security model using IMU data for covert emotional state detection, enhancing privacy protections against unauthorized app tracking.",
+            "Leveraged Kalman filtering to optimize data accuracy and machine learning performance in real-time emotional detection systems.",
+        ],
+    },
+
+    {
         title: "HeadstarterAI Fellowship",
         company_name: "The University of Texas at Arlington",
         icon: Headstarter_logo,
@@ -99,6 +156,19 @@ export const experiences = [
             "Led a capstone project focused on achieving 1,000 user sign-ups or generating $1,000 in revenue, utilizing data-driven strategies and iterative design processes to meet and exceed objectives, demonstrating expertise in building scalable, robust, and market-ready solutions.",
         ],
     },
+
+    {
+        title: "Society of Computing and Artificial Intelligence (SCAI) Developer and Outreach Officer",
+        company_name: "The University of Texas at Arlington",
+        icon: scai,
+        iconBg: "#6B48FF",
+        date: "May 2024 - April 2025",
+        points: [
+            "Working with a team of individuals to develop and modify the website for SCAI.",
+            "Making use of Node.js, Next.js, React, and Typescript to create their first ever website.",
+        ],
+    },
+
     {
         title: "HackUTA 2024 Developer",
         company_name: "The University of Texas at Arlington",
@@ -110,68 +180,6 @@ export const experiences = [
             "Making use of React and MongoDB to modify webpages and add features to them.",
         ],
     },
-    
-    {
-        title: "Society of Computing and Artificial Intelligence (SCAI) Developer and Outreach Officer",
-        company_name: "The University of Texas at Arlington",
-        icon: scai,
-        iconBg: "#6B48FF",
-        date: "May 2024 - Present",
-        points: [
-            "Working with a team of individuals to develop and modify the website for SCAI.",
-            "Making use of Node.js, Next.js, React, and Typescript to create their first ever website.",
-        ],
-    },
-
-    {
-        title: "Undergraduate Research Assistant",
-        company_name: "The University of Texas at Arlington",
-        icon: uta,
-        iconBg: "#F28C28",
-        date: "Jul 2024 - Present",
-        points: [
-            "Developed a novel security model using IMU data for covert emotional state detection, enhancing privacy protections against unauthorized app tracking.",
-            "Leveraged Kalman filtering to optimize data accuracy and machine learning performance in real-time emotional detection systems.",
-        ],
-    },
-
-    {
-        title: "CSE tutor",
-        company_name: "The University of Texas at Arlington",
-        icon: uta,
-        iconBg: "#F28C28",
-        date: "August 2024 - Present",
-        points: [
-            "Providing one-on-one tutoring for UTA CSE undergraduate courses, assisting students in mastering subject material, debugging programs, and solving complex programming problems.",
-            "Manage daily operations of the CSE Student Success Center, including preparing lab computers, organizing work areas, and ensuring smooth appointment check-ins.",
-        ],
-    
-    },
-
-    {
-        title: "Engineering Senator, Student Government",
-        company_name: "The University of Texas at Arlington",
-        icon: uta,
-        iconBg: "#F28C28",
-        date: "october 2024 - Present",
-        points: [
-            "Championed engineering student interests, effectively influencing university policies to better align with student needs.",
-            "Fostered strong collaborations with academic and administrative stakeholders to launch initiatives that significantly boosted the engineering community's growth and success."
-        ],
-    },
-
-    {
-        title: "Datathon 2024 Developer",
-        company_name: "The University of Texas at Arlington",
-        icon: uta,
-        iconBg: "#F28C28",
-        date: "November 2024 - Present",
-        points: [
-            "Engineered a cutting-edge, user-centric website using React, Next.js, and Node.js, enhancing participant engagement and operational efficiency.",
-            "Spearheaded the robust management of event databases, ensuring smooth and secure participant interactions from check-in through completion."
-        ],
-    },
-
 ];
 
 
