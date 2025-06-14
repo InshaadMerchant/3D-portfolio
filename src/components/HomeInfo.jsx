@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Inshaad Merchant</span>
         
         <br />
-        A Rising senior from The University of Texas at Arlington.
+        Graduated from The University of Texas at Arlington.
       </h1>
     );
 
