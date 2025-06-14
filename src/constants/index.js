@@ -91,7 +91,7 @@ export const experiences = [
         title: "Software Engineering Intern",
         company_name: "Atlanta Petroleum Equipment Company",
         icon: APEC_logo,
-        iconBg: "#FFFFFF",
+        iconBg: "#FF6B6B",
         date: "July 2025 - Present",
         points: [
             "Led the consolidation and transfer of 25+ critical I.T. systems and software platforms including MSFT Azure, SQL Server, Ventus, Acumatica, and Zoho, ensuring 100% continuity in operations across three major offices (ATL, HOU, and MPC).",
