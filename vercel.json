@@ -1,9 +1,14 @@
 {
-  "github": {
-    "silent": true
-  },
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
   "functions": {
     "api/**": {
       "runtime": "nodejs22.x"
@@ -11,5 +16,10 @@
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ]
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "22"
+    }
+  }
 }
