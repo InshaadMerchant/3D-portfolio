@@ -226,7 +226,7 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'BugHouse',
         description: 'Led the design and development of a Flutter-based tutoring app for the CSE Student Success Center at UTA, incorporating Firebase, Node.js, OAuth 2.0, and PostgreSQL, featuring a session management system with magnetic stripe attendance tracking, a real-time feedback and rating system for tutors, dynamic availability scheduling, and robust reporting for performance metrics to enhance teaching effectiveness and student engagement.',
-        link: 'https://github.com/mln10/BugHouse/tree/master',
+        link: 'https://github.com/InshaadMerchant/BugHouse',
     },
     {
         iconUrl: car,
