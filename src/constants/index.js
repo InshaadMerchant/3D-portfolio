@@ -88,7 +88,19 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Software Engineering Intern",
+        title: "AI Engineer Intern",
+        company_name: "EVISION Atlanta",
+        icon: APEC_logo,
+        iconBg: "#5271FF",
+        date: "August 2025 - Present",
+        points: [
+            "Collaborated with a senior developer to design and deploy an AI-powered Help/Support Chat Bot, enhancing customer service.",
+            "Led the integration of web applications across multiple client websites, ensuring optimal performance and scalability.",
+            "Developed an AI-driven lead generation funnel, automating client acquisition and improving digital marketing effectiveness.",
+        ],
+    },
+    {
+        title: "Software Engineer Intern",
         company_name: "Atlanta Petroleum Equipment Company",
         icon: APEC_logo,
         iconBg: "#FF6B6B",
