@@ -1,4 +1,4 @@
-import { meta, shopify, tesla, starbucks, Headstarter_logo, hackuta2024, scai, uta, APEC_logo } from "../assets/images";
+import { meta, shopify, tesla, starbucks, Headstarter_logo, hackuta2024, scai, uta, APEC_logo, EVISION_logo } from "../assets/images";
 import {
     car,
     contact,
@@ -90,7 +90,7 @@ export const experiences = [
     {
         title: "AI Engineer Intern",
         company_name: "EVISION Atlanta",
-        icon: APEC_logo,
+        icon: EVISION_logo,
         iconBg: "#5271FF",
         date: "August 2025 - Present",
         points: [
@@ -214,6 +214,41 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Vira Broadcasting',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
+        link: 'https://github.com/InshaadMerchant/Vira-Broadcasting-Android-App',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Wordpress Plugin',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
+        link: 'https://github.com/InshaadMerchant/Wordpress-Plugin',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Digital Commerce 360 Chatbot',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
+        link: 'https://github.com/InshaadMerchant/DigitalCommerce360-Chatbot',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'NovaApp Chatbot',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
+        link: 'https://github.com/InshaadMerchant/NovaApp-Chatbot',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Prescripto',
+        description: 'Developed a mobile platform using Java and XML in Android Studio to enhance educational connectivity with features like post creation, advanced search, and filtering, integrated user registration and login with Firebase for real-time data operations and Microsoft Azure AD for secure authentication, and incorporated GPS functionality for location-based educational interactions and resource sharing.',
+        link: 'https://github.com/InshaadMerchant/Prescripto',
+    },
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
